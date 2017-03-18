@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1115EFA81E7D7A24004E6584 /* ETTOffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1115EFA71E7D7A24004E6584 /* ETTOffer.m */; };
+		1115EFAC1E7D8115004E6584 /* ETTOfferCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1115EFAB1E7D8115004E6584 /* ETTOfferCell.m */; };
+		1115EFAF1E7D824A004E6584 /* UIColor+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1115EFAE1E7D824A004E6584 /* UIColor+Utilities.m */; };
 		1174F2101E7C63C90031CD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174F20F1E7C63C90031CD18 /* main.m */; };
 		1174F2131E7C63C90031CD18 /* ETTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174F2121E7C63C90031CD18 /* ETTAppDelegate.m */; };
 		1174F2191E7C63C90031CD18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1174F2171E7C63C90031CD18 /* Main.storyboard */; };
@@ -16,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1115EFA61E7D7A24004E6584 /* ETTOffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTOffer.h; sourceTree = "<group>"; };
+		1115EFA71E7D7A24004E6584 /* ETTOffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTOffer.m; sourceTree = "<group>"; };
+		1115EFAA1E7D8115004E6584 /* ETTOfferCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTOfferCell.h; sourceTree = "<group>"; };
+		1115EFAB1E7D8115004E6584 /* ETTOfferCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTOfferCell.m; sourceTree = "<group>"; };
+		1115EFAD1E7D824A004E6584 /* UIColor+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utilities.h"; sourceTree = "<group>"; };
+		1115EFAE1E7D824A004E6584 /* UIColor+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utilities.m"; sourceTree = "<group>"; };
 		1174F20B1E7C63C90031CD18 /* ETTLoyaltyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETTLoyaltyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1174F20F1E7C63C90031CD18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1174F2111E7C63C90031CD18 /* ETTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETTAppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +48,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1115EFA51E7D79F4004E6584 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1115EFA61E7D7A24004E6584 /* ETTOffer.h */,
+				1115EFA71E7D7A24004E6584 /* ETTOffer.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1115EFA91E7D80F2004E6584 /* ETTOfferCell */ = {
+			isa = PBXGroup;
+			children = (
+				1115EFAA1E7D8115004E6584 /* ETTOfferCell.h */,
+				1115EFAB1E7D8115004E6584 /* ETTOfferCell.m */,
+			);
+			path = ETTOfferCell;
+			sourceTree = "<group>";
+		};
 		1174F2021E7C63C90031CD18 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				1174F2301E7C92400031CD18 /* Common */,
+				1115EFA51E7D79F4004E6584 /* Data */,
 				1174F2251E7C85050031CD18 /* UI */,
 				1174F2111E7C63C90031CD18 /* ETTAppDelegate.h */,
 				1174F2121E7C63C90031CD18 /* ETTAppDelegate.m */,
@@ -98,6 +126,7 @@
 		1174F2271E7C85050031CD18 /* ETTViewController */ = {
 			isa = PBXGroup;
 			children = (
+				1115EFA91E7D80F2004E6584 /* ETTOfferCell */,
 				1174F2281E7C85050031CD18 /* ETTViewController.h */,
 				1174F2291E7C85050031CD18 /* ETTViewController.m */,
 			);
@@ -115,6 +144,8 @@
 		1174F2311E7C92400031CD18 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				1115EFAD1E7D824A004E6584 /* UIColor+Utilities.h */,
+				1115EFAE1E7D824A004E6584 /* UIColor+Utilities.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -191,6 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1115EFAC1E7D8115004E6584 /* ETTOfferCell.m in Sources */,
+				1115EFA81E7D7A24004E6584 /* ETTOffer.m in Sources */,
+				1115EFAF1E7D824A004E6584 /* UIColor+Utilities.m in Sources */,
 				1174F2131E7C63C90031CD18 /* ETTAppDelegate.m in Sources */,
 				1174F22A1E7C85050031CD18 /* ETTViewController.m in Sources */,
 				1174F2101E7C63C90031CD18 /* main.m in Sources */,
